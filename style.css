@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "Tanker";
+    src: url('./Fonts/OTF/Tanker-Regular.otf');
+}
+@font-face {
+    font-family: "Alpino";
+    src: url('./Alpino_Complete/Fonts/OTF/Alpino-Regular.otf');
+}
+body{
+    background-color: #160019;
+}
+.section{
+    background-image: url('./Rectangle.png');
+}
+.section.lab-screen{
+    display: none;
+    background-image: url('./photo/Rectangleforlabtop.png');
+    z-index: -1;
+}
+.contianer{
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.left-section {
+    width: 372px;
+    height: 385px;
+    position: sticky;
+    top: 15%;
+    
+}
+
+.left-section .tutlub{
+    display: flex;
+    gap: 10px;
+}
+
+.tutlub-title{
+    color: #ffff;
+    font-size: 17px;
+    margin: 0;
+}
+.sction-text .sction-title{
+    font-size: 70px;
+    color: #ffff;
+    font-family: 'Tanker';
+}
+.sction-text .sction-p{
+    color: #ffff;
+    font-size: 25px;
+    font-family: 'Alpino';
+}
+.sction-text .sction-p .p-span, .p-span2{
+    color: #5D369E;
+}
+.store-icons{
+    display: flex;
+    gap: 10px;
+}
+.apple-store , .androied-store{
+    cursor: pointer;
+}
+/* .icons-contianer{
+    position: fixed;
+    bottom: 0;
+}
+.father{
+    position: relative;
+}
+.social{
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* Right */
+.scroll-box1{
+    position: relative;
+    margin-top: 20px;
+    width: 491px;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-box {
+    background-image: url('./photo/Subtract.png');
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+    margin-top: 20px;
+    width: 491px;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen{
+    position: absolute;
+    top: 10%;
+    width: 214px;
+    height: 459px;
+    display: block;
+}
+.h2-box{
+    position: absolute;
+    bottom: 78px;
+    text-align: center;
+    margin-top: 38rem;
+}
+.vector-div{
+    position: absolute;
+    bottom: 7px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    width: 30px;
+    border-radius: 20px 20px 0 0;
+    left: 48%;
+}
+
+
+/* for small phone */
+@media (max-width: 990px) {
+    .contianer .left-section {
+        width: 372px;
+        height: 385px;
+        position: relative;
+        margin-top: 60px;
+    }
+}
+@media (max-width: 1280px){
+    body{
+        background-color: #160019;
+    }
+    .section{
+        background-image: url('./photo/Rectangleforlabtop.png');
+    }
+}
