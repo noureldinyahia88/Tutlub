@@ -7,10 +7,7 @@
     src: url('./Alpino_Complete/Fonts/OTF/Alpino-Regular.otf');
 }
 body{
-    background-color: #160019;
-}
-.section{
-    background-image: url('./Rectangle.png');
+    background-image: url('./boxes/Background.svg');
 }
 
 .contianer{
@@ -43,18 +40,26 @@ body{
     font-size: 70px;
     color: #ffff;
     font-family: 'Tanker';
+    line-height: 110%;
 }
-.sction-text .sction-p{
+/* .sction-text .sction-p{
     color: #ffff;
     font-size: 22px;
     font-family: 'Alpino';
+} */
+.p-text{
+    display: block;
+}
+.p-text-mob{
+    display: none;
 }
 .sction-text .sction-p .p-span, .p-span2{
     color: #5D369E;
 }
 .store-icons{
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    margin-top: 15px;
 }
 .apple-store , .androied-store{
     cursor: pointer;
@@ -88,7 +93,11 @@ body{
 
 
 /* Right */
+.right-sction{
+    margin-top: 50px;
+}
 .scroll-box1{
+    
     position: relative;
     margin-top: 20px;
     width: 491px;
@@ -152,6 +161,13 @@ body{
         left: 0;
         right: 0;
         margin: 0 auto;
+    }
+
+    .p-text{
+        display: none;
+    }
+    .p-text-mob{
+        display: block;
     }
 }
 @media (max-width: 1280px){
