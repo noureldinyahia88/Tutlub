@@ -12,11 +12,11 @@ body{
 .section{
     background-image: url('./Rectangle.png');
 }
-.section.lab-screen{
+/* .section.lab-screen{
     display: none;
     background-image: url('./photo/Rectangleforlabtop.png');
     z-index: -1;
-}
+} */
 .contianer{
     display: flex;
     justify-content: center;
@@ -50,7 +50,7 @@ body{
 }
 .sction-text .sction-p{
     color: #ffff;
-    font-size: 25px;
+    font-size: 22px;
     font-family: 'Alpino';
 }
 .sction-text .sction-p .p-span, .p-span2{
@@ -63,21 +63,33 @@ body{
 .apple-store , .androied-store{
     cursor: pointer;
 }
-/* .icons-contianer{
-    position: fixed;
-    bottom: 0;
-}
-.father{
-    position: relative;
-}
-.social{
-    position: absolute;
-    z-index: 999;
-    top: 0;
+
+
+.icons-container {
+    width: 166px;
+    height: 30px;
+    background-image: url(./photo/FixFooter.png);
     display: flex;
-    align-items: center;
     justify-content: center;
-} */
+    gap: 7px;
+    align-items: center;
+    position: fixed;
+    bottom: 20px
+}
+
+.icons-container a {
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(98.81% 79.15% at 98.81% 49.96%, #47384B 0%, #332137 100%);
+    box-shadow: 0px 16.020000457763672px 32.040000915527344px 0px #00000047;
+    text-align: center;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px
+}
+
 
 /* Right */
 .scroll-box1{
@@ -135,10 +147,20 @@ body{
         position: relative;
         margin-top: 60px;
     }
+    .contianer{
+        overflow: hidden;
+    }
+
+    .icons-container {
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
 }
 @media (max-width: 1280px){
     body{
-        background-color: #160019;
+        background-color: rgba(24, 6, 27, 1);
     }
     .section{
         background-image: url('./photo/Rectangleforlabtop.png');
