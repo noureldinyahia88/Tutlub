@@ -144,7 +144,8 @@ body{
         margin-top: 60px;
     }
     .contianer{
-        overflow: hidden;
+        overflow-x: hidden;
+}
     }
 
     .icons-container {
