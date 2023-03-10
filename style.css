@@ -38,29 +38,28 @@ body{
     margin: 0;
 }
 .sction-text .sction-title{
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 70px;
     color: #ffff;
     font-family: 'Tanker';
     line-height: 110%;
 }
-/* .sction-text .sction-p{
+.sction-text .p-text{
     color: #ffff;
-    font-size: 22px;
+    font-size: 26px;
     font-family: 'Alpino';
-} */
-.p-text{
-    display: block;
+    width: 87%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-.p-text-mob{
-    display: none;
-}
+
 .sction-text .sction-p .p-span, .p-span2{
     color: #5D369E;
 }
 .store-icons{
     display: flex;
     gap: 20px;
-    margin-top: 15px;
 }
 .apple-store , .androied-store{
     cursor: pointer;
@@ -70,13 +69,13 @@ body{
 .icons-container {
     width: 166px;
     height: 30px;
-    background-image: url('./photo/FixFooter.png');
+    background-image: url(./photo/FixFooter.png);
     display: flex;
     justify-content: center;
     gap: 7px;
     align-items: center;
     position: fixed;
-    bottom: 20px;
+    bottom: 20px
 }
 
 .icons-container a {
@@ -86,11 +85,12 @@ body{
     box-shadow: 0px 16.020000457763672px 32.040000915527344px 0px #00000047;
     text-align: center;
     border-radius: 6px;
-    /* -webkit-border-radius: 6px;
+    -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
-    -o-border-radius: 6px; */
+    -o-border-radius: 6px
 }
+
 
 
 /* Right */
@@ -135,13 +135,13 @@ body{
 }
 .vector-div{
     position: absolute;
-    bottom: 7px;
+    bottom: -2px;
     text-align: center;
     color: white;
     font-size: 16px;
     width: 30px;
     border-radius: 20px 20px 0 0;
-    left: 48%;
+    left: 47%;
 }
 
 
@@ -163,25 +163,15 @@ body{
         right: 0;
         margin: 0 auto;
     }
-    .p-text{
-        display: none;
-    }
-    .p-text-mob{
-        display: block;
-    }
+
     .sction-text .sction-title {
         font-weight: lighter;
     }
     .right-sction {
-        margin-top: 80px;
+        margin-top: 120px;
         margin-bottom: 50px;
     }
 }
 @media (max-width: 1280px){
-    body{
-        background-color: rgba(24, 6, 27, 1);
-    }
-    .section{
-        background-image: url('./photo/Rectangleforlabtop.png');
-    }
+
 }
