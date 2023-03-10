@@ -12,11 +12,7 @@ body{
 .section{
     background-image: url('./Rectangle.png');
 }
-/* .section.lab-screen{
-    display: none;
-    background-image: url('./photo/Rectangleforlabtop.png');
-    z-index: -1;
-} */
+
 .contianer{
     display: flex;
     justify-content: center;
@@ -68,7 +64,7 @@ body{
 .icons-container {
     width: 166px;
     height: 30px;
-    background-image: url(./photo/FixFooter.png);
+    background-image: url('./photo/FixFooter.png');
     display: flex;
     justify-content: center;
     gap: 7px;
