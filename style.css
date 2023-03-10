@@ -29,6 +29,7 @@ body{
 .left-section .tutlub{
     display: flex;
     gap: 10px;
+    margin-bottom: 15px;
 }
 
 .tutlub-title{
@@ -75,7 +76,7 @@ body{
     gap: 7px;
     align-items: center;
     position: fixed;
-    bottom: 20px
+    bottom: 20px;
 }
 
 .icons-container a {
@@ -85,10 +86,10 @@ body{
     box-shadow: 0px 16.020000457763672px 32.040000915527344px 0px #00000047;
     text-align: center;
     border-radius: 6px;
-    -webkit-border-radius: 6px;
+    /* -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
-    -o-border-radius: 6px
+    -o-border-radius: 6px; */
 }
 
 
@@ -150,24 +151,30 @@ body{
         width: 372px;
         height: 385px;
         position: relative;
-        margin-top: 60px;
+        top: 80px;
     }
     .contianer{
         overflow-x: hidden;
+        gap: 150px;
     }
-
     .icons-container {
         bottom: 0px;
         left: 0;
         right: 0;
         margin: 0 auto;
     }
-
     .p-text{
         display: none;
     }
     .p-text-mob{
         display: block;
+    }
+    .sction-text .sction-title {
+        font-weight: lighter;
+    }
+    .right-sction {
+        margin-top: 80px;
+        margin-bottom: 50px;
     }
 }
 @media (max-width: 1280px){
